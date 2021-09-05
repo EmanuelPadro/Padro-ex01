@@ -18,3 +18,11 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+run {
+    standardInput = System.in
+}
+
+application {
+    mainClass = "Solution01"
+}
